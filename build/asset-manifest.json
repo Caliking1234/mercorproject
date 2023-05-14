@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mercorproject/static/css/main.c75f6af9.css",
+    "main.js": "/mercorproject/static/js/main.f2435d6f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/mercorproject/static/js/787.28cb0dcd.chunk.js",
+    "static/media/img4.jpg": "/mercorproject/static/media/img4.d2bc746f4f8b777df46c.jpg",
+    "static/media/img.jpg": "/mercorproject/static/media/img.244ff4be7ad5b3f568ad.jpg",
+    "static/media/img2.jpg": "/mercorproject/static/media/img2.99d77679f48bbd6d26f3.jpg",
+    "static/media/star.png": "/mercorproject/static/media/star.3dc0c89d018c32e68817.png",
+    "static/media/Chronicle.svg": "/mercorproject/static/media/Chronicle.4778c11b1e1651f54c3fd5b8c319f99f.svg",
+    "index.html": "/mercorproject/index.html",
+    "main.c75f6af9.css.map": "/mercorproject/static/css/main.c75f6af9.css.map",
+    "main.f2435d6f.js.map": "/mercorproject/static/js/main.f2435d6f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/mercorproject/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c75f6af9.css",
+    "static/js/main.f2435d6f.js"
+  ]
+}
