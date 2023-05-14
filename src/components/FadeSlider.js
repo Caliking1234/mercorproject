@@ -77,7 +77,7 @@ const FadeSlider = () => {
   });
   return (
     <div className=" relative h-[600vh] w-1/2 bg-black">
-      <div className=" sticky top-0 left-0 h-screen  w-[475px]  flex flex-col ">
+      <div className=" sticky top-0 left-0 h-screen  max-w-[475px]  flex flex-col ">
         <div
           className=" absolute top-0  left-0 h-screen w-fit py-16 lg:px-10 lg:opacity-1 lg:translate-y-[0px] transition-all duration-700 delay-200 rounded-lg"
           rounded-lg
