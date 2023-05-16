@@ -78,7 +78,7 @@ const NewFadeSlider = () => {
               A keyboard <br /> first experience
             </h1>
             <br />
-            <p className=" text-center text-white pb-4 mx-2 px-5 opacity-50">
+            <p className=" text-sm sm:text-base text-center text-white pb-4 mx-2 px-5 opacity-50">
               Powerful shortcuts and a keyboard-first workflow means you will
               get to your finish line in no time!
             </p>
@@ -104,7 +104,7 @@ const NewFadeSlider = () => {
               A keyboard <br /> first experience
             </h1>
             <br />
-            <p className=" text-center text-white pb-4 mx-2 px-5 opacity-50">
+            <p className=" text-sm sm:text-base text-center text-white pb-4 mx-2 px-5 opacity-50">
               Powerful shortcuts and a keyboard-first workflow means you will
               get to your finish line in no time!
             </p>
@@ -130,7 +130,7 @@ const NewFadeSlider = () => {
               A powerful assistant <br /> just a click away
             </h1>
             <br />
-            <p className=" text-center text-white pb-4 mx-2 px-5 opacity-50">
+            <p className=" text-sm sm:text-base text-center text-white pb-4 mx-2 px-5 opacity-50">
               Insert blocks, perform powerful actions and leverage the limitless
               power of AI - all without leaving your keyboard
             </p>
