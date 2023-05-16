@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mercorproject/static/css/main.85f63f41.css",
-    "main.js": "/mercorproject/static/js/main.69ce1c5f.js",
+    "main.css": "/mercorproject/static/css/main.c22131c6.css",
+    "main.js": "/mercorproject/static/js/main.0de844b4.js",
     "static/js/787.28cb0dcd.chunk.js": "/mercorproject/static/js/787.28cb0dcd.chunk.js",
     "static/media/img4.jpg": "/mercorproject/static/media/img4.d2bc746f4f8b777df46c.jpg",
     "static/media/img.jpg": "/mercorproject/static/media/img.244ff4be7ad5b3f568ad.jpg",
@@ -9,12 +9,12 @@
     "static/media/star.png": "/mercorproject/static/media/star.3dc0c89d018c32e68817.png",
     "static/media/Chronicle.svg": "/mercorproject/static/media/Chronicle.4778c11b1e1651f54c3fd5b8c319f99f.svg",
     "index.html": "/mercorproject/index.html",
-    "main.85f63f41.css.map": "/mercorproject/static/css/main.85f63f41.css.map",
-    "main.69ce1c5f.js.map": "/mercorproject/static/js/main.69ce1c5f.js.map",
+    "main.c22131c6.css.map": "/mercorproject/static/css/main.c22131c6.css.map",
+    "main.0de844b4.js.map": "/mercorproject/static/js/main.0de844b4.js.map",
     "787.28cb0dcd.chunk.js.map": "/mercorproject/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85f63f41.css",
-    "static/js/main.69ce1c5f.js"
+    "static/css/main.c22131c6.css",
+    "static/js/main.0de844b4.js"
   ]
 }
