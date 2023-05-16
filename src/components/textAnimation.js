@@ -825,7 +825,7 @@ const TextAnimation = () => {
     <section className=" bg-black font-customised1">
       <div className=" w-[100%] mx-auto flex items-center justify-center">
         <div className=" relative h-[200vh]">
-          <div className=" sticky top-0 left-0 py-20 flex items-center h-[100%]">
+          <div className=" sticky top-0 left-0 py-20 flex items-center h-[100vh]">
             <div className=" max-w-5xl">
               <div className=" relative h-[50vh]">
                 <p className=" text-white text-4xl lg:text-5xl font-semibold leading-none absolute flex flex-wrap sm:px-5 md:px-10 gap-2">
