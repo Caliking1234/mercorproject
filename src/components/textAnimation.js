@@ -825,10 +825,10 @@ const TextAnimation = () => {
     <section className=" bg-black font-customised1">
       <div className=" w-[100%] mx-auto flex items-center justify-center">
         <div className=" relative h-[200vh]">
-          <div className=" sticky top-0 left-0 py-20 flex items-center h-[50%]">
+          <div className=" sticky top-0 left-0 py-20 flex items-center h-[100%]">
             <div className=" max-w-5xl">
-              <div className=" relative">
-                <p className=" text-white text-2xl sm:text-4xl font-semibold leading-none absolute flex flex-wrap px-5 gap-2">
+              <div className=" relative h-[50vh]">
+                <p className=" text-white text-4xl lg:text-5xl font-semibold leading-none absolute flex flex-wrap sm:px-5 md:px-10 gap-2">
                   <span
                     ref={elementRef1}
                     id="para1"
@@ -1107,10 +1107,10 @@ const TextAnimation = () => {
                     id="para40"
                     className=" opacity-0 transition-opacity duration-300"
                   >
-                    unfold
+                    unfold.
                   </span>
                 </p>
-                <p className=" text-[#202020] text-2xl sm:text-4xl font-semibold leading-none flex flex-wrap px-5 gap-2">
+                <p className=" text-[#202020] text-4xl lg:text-5xl font-semibold leading-none flex flex-wrap sm:px-5 md:px-10 gap-2">
                   <span>In </span>
                   <span>Chronicle </span>
                   <span>everything </span>
@@ -1150,7 +1150,7 @@ const TextAnimation = () => {
                   <span>see </span>
                   <span>the </span>
                   <span>magic </span>
-                  <span>unfold </span>
+                  <span>unfold. </span>
                 </p>
               </div>
             </div>

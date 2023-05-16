@@ -83,16 +83,22 @@ const FadeSlider = () => {
           rounded-lg
           id="slide1"
         >
-          <div className=" md:w-[388px] lg:w-[388px] h-[400px] bg-[#101010] rounded-lg flex flex-col justify-center items-center my-14 overflow-hidden">
-            <div className=" w-[100%] h-[100%]">
-              <img src={img} />
+          <div className=" md:w-[388px] lg:w-[388px] h-[500px] bg-[#101010] rounded-lg flex flex-col justify-center items-center my-14 overflow-hidden">
+            <div className=" w-[100%] h-[100%] p-5">
+              <iframe
+                src="https://giphy.com/embed/THShpYySQRDeqanpoH"
+                width="100%"
+                height="100%"
+                class="giphy-embed"
+                allowFullScreen
+              ></iframe>
             </div>
-            <div className=" w-[100%] h-[50%]">
-              <h1 className=" text-white text-center text-2xl">
+            <div className=" w-[100%] h-[100%]">
+              <h1 className=" text-white text-center text-4xl">
                 A keyboard <br /> first experience
               </h1>
               <br />
-              <p className=" text-center text-white pb-4 mx-2">
+              <p className=" text-center text-white pb-4 mx-2 text-xl opacity-50 px-5">
                 Powerful shortcuts and a keyboard-first workflow means you will
                 get to your finish line in no time!
               </p>
@@ -103,17 +109,23 @@ const FadeSlider = () => {
           className=" absolute top-0 left-0 h-screen w-fit py-16 lg:px-10 opacity-0 translate-y-[250px] transition-all duration-700 delay-200 rounded-lg"
           id="slide2"
         >
-          <div className=" md:w-[388px] lg:w-[388px] h-[400px] bg-[#101010] rounded-lg flex flex-col justify-center items-center my-14 overflow-hidden">
-            <div className=" w-[100%] h-[100%]">
-              <img src={img2} />
+          <div className=" md:w-[388px] lg:w-[388px] h-[500px] bg-[#101010] rounded-lg flex flex-col justify-center items-center my-14 overflow-hidden">
+            <div className=" w-[100%] h-[100%] p-5">
+              <iframe
+                src="https://giphy.com/embed/t5zwdavzs0iWzlE6wO"
+                width="100%"
+                height="100%"
+                class="giphy-embed"
+                allowFullScreen
+              ></iframe>
             </div>
-            <div className=" w-[100%] h-[50%]">
-              <h1 className=" text-white text-center text-2xl">
+            <div className=" w-[100%] h-[100%]">
+              <h1 className=" text-white text-center text-4xl">
                 bullets to visuals
                 <br /> in a click
               </h1>
               <br />
-              <p className=" text-center text-white pb-4 mx-2">
+              <p className=" text-center text-white pb-4 mx-2 px-5 opacity-50">
                 transform any block to any other and try different options
                 without any design hassle
               </p>
@@ -124,23 +136,29 @@ const FadeSlider = () => {
           className=" absolute top-0 left-0 h-screen w-fit py-16 lg:px-10 opacity-0 translate-y-[250px] transition-all duration-700 delay-200 rounded-lg"
           id="slide3"
         >
-          <div className=" md:w-[388px] lg:w-[388px] h-[400px] bg-[#101010] rounded-lg flex flex-col justify-center items-center my-14 overflow-hidden">
-            <div className=" w-[100%] h-[100%]">
-              <img src={img4} />
+          <div className=" md:w-[388px] lg:w-[388px] h-[500px] bg-[#101010] rounded-lg flex flex-col justify-center items-center my-14 overflow-hidden">
+            <div className=" w-[100%] h-[100%] py-5">
+              <iframe
+                src="https://giphy.com/embed/IcZhFmufozDCij3p22"
+                width="100%"
+                height="100%"
+                class="giphy-embed"
+                allowFullScreen
+              ></iframe>
             </div>
-            <div className=" w-[100%] h-[50%]">
-              <h1 className=" text-white text-center text-2xl">
+            <div className=" w-[100%] h-[100%]">
+              <h1 className=" text-white text-center text-4xl">
                 A powerful assistant <br /> just a click away
               </h1>
               <br />
-              <p className=" text-center text-white pb-4 mx-2">
+              <p className=" text-center text-white pb-4 mx-2 px-5 opacity-50">
                 Insert blocks, perform powerful actions and leverage the
                 limitless power of AI - all without leaving your keyboard
               </p>
             </div>
           </div>
         </div>
-        <div className=" hidden md:absolute md:top-0 md:mt-28 md:right-0 md:h-screen md:flex md:flex-col md:items-center md:gap-2">
+        <div className=" hidden md:absolute md:top-[50%] md:-translate-y-[50%] md:mt-36 md:right-0 md:h-screen md:flex md:flex-col md:items-center md:gap-2">
           <span className=" text-[12px] opacity-1 text-white">
             {scrollCor >= 3 * window.screen.height &&
             scrollCor < 4 * window.screen.height
@@ -149,7 +167,7 @@ const FadeSlider = () => {
               ? "03"
               : "01"}
           </span>
-          <div className=" w-[4px] h-[350px] relative rounded-full bg-[#232323] overflow-hidden">
+          <div className=" w-[4px] h-[400px] relative rounded-full bg-[#232323] overflow-hidden">
             <span
               className=" absolute top-0 left-0 w-full bg-[#A594FD] rounded-full"
               style={{ height: `${completion}%` }}
